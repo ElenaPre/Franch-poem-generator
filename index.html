@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="src/css.style">
+    <link rel="stylesheet" href="src/style.css">
 </head>
 <body>
-    <main>
-    <h1>
-        Welcome to french poem generator
-    </h1>
+    <div  class="container">
+        <header>
+            <h1>AI French Poem Generator</h1>
+          </header>
+    <main></main>
     <form>
         <input type="text" placeholder="Enter the topec of a French poem"  autofocus
         required
-        autocomplete="off">
-        <input type="submit"/>
+        autocomplete="off"
+        class="instructions">
+        <input type="submit" class="submit-button"/>
     </form>
-    <div>
+    <div class="poem">
         La tombe dit à la rose
         <br />
         Des pleurs dont l'aube t'arrose
@@ -28,6 +30,7 @@
    and is <a href=" https://github.com/ElenaPre/Franch-poem-generation.git" target="_blank">on GitHub</a> 
    and hosted <a href="https://frenchpoembyme.netlify.app/" target="_blank"> on Netlify</a>   
     </footer>
+</div>
     <script src="src/index.js"></script>
 </body>
 </html>
