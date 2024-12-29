@@ -15,16 +15,21 @@
         <header>
             <h1>AI French Poem Generator</h1>
           </header>
-    <main></main>
+    <main>
+        <div class="form-container">
     <form id="poem-generator-form">
-        <input type="text" placeholder="Enter the topec of a French poem"  autofocus
+        <input type="text" placeholder="Enter the topc of a French poem"  autofocus
         required
         autocomplete="off"
         class="instructions"
         id="user-instructions">
         <input type="submit" class="submit-button"/>
+        
     </form>
-    <div class="poem" id="poem"></div>
+    <div class="hint"> i.e.: Paris, Cheese, Flower</div>
+        </div>
+    <div class="poem hidden" id="poem"></div>
+
     </main>
     <footer>
         This AI project was coded by <a href="https://github.com/dashboard" target="_blank"> Olena Verershchak</a>
